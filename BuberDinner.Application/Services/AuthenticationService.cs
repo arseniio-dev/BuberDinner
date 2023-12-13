@@ -32,7 +32,7 @@ public class AuthenticationService
 
         // Generate token
 
-        var token = jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+        var token = jwtTokenGenerator.GenerateToken(user);
 
         return new AuthenticationResult(
             user,
@@ -57,7 +57,7 @@ public class AuthenticationService
 
         // Generate token
         
-        var token = jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+        var token = jwtTokenGenerator.GenerateToken(user);
 
         return new AuthenticationResult(
             user,
