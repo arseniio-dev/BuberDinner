@@ -1,4 +1,4 @@
-﻿using BuberDinner.Application.Common.Interfaces;
+﻿using BuberDinner.Application.Common.Interfaces.Authentication;
 using BuberDinner.Application.Common.Services;
 using BuberDinner.Infrastructure.Authentication;
 using BuberDinner.Infrastructure.Services;
